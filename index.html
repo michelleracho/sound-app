@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <script
@@ -20,7 +25,13 @@
 
     <title>Sound App | Patatap Clone</title>
   </head>
-  <body>
-    <canvas id="myCanvas" resize></canvas>
+  <body class="container">
+    <canvas class="hide" id="myCanvas" resize></canvas>
+
+    <header class="header">
+      <h1 class="header__title">Sound App</h1>
+      <h2 class="header__sub-title">a patatap clone</h2>
+      <p>Press any key from <span class="a-z">a-z</span> and have fun!</p>
+    </header>
   </body>
 </html>
